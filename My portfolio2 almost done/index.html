@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+	<title>Luthando Sitole</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header id="header">
+	
+		  <div class="card1">
+		  	<img src="./img/teedo.png" class="img">
+			<h1 class="heading1">Luthando Sitole</h1>
+			<h1 class="heading2">Luthando Sitole</h1>
+			<h2 class="h2">Welcome to my Portfolio</h2>
+			<h2 class="h3">Welcome to my Portfolio</h2>
+			<p id="emailSent">Let's keep in touch</p>
+
+			<form method="get" action="page.php" id="form-email">
+				<input type="email" name="emailaddress" placeholder="Your email" 
+				class="your-email" id="mail">
+				<a class="submit1" id="sent" value="submit">SUBMIT</a>
+			</form>
+
+			<br />
+			<a href="./about.html" class="btn btn-white btn-animated">VIEW HERE</a>	
+		 </div>
+
+</header>
+<!-- <script type="text/javascript" src="./js/script.js"></script> -->
+<script type="text/javascript">
+	 var emailSent = false;
+	 var form = document.getElementById("mail");
+
+	document.getElementById("sent").addEventListener("click", function(){
+	if ("sent"){
+
+		document.getElementById("emailSent")
+    	.innerHTML = "Great! Got it... Click View";
+
+		sent = true;
+		
+	}else {
+
+		document.getElementById("emailSent")
+		.innerHTML = "Let's keep in touch";
+
+		sent = false;
+	}
+
+	document.querySelector('#sent').style.backgroundColor = 'gray';
+	document.querySelector('#mail').innerHTML = "Your email";
+})
+
+	// form.addEventListener('submit', addItem);
+
+	// function addItem(a){
+		
+
+	// 	console.log(1)
+	// }
+
+</script>
+</body>
