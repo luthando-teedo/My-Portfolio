@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+body .container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+body ul {
+  list-style: none;
+}
+
+body ul li a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */

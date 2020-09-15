@@ -1,0 +1,115 @@
+.hero-section, .hero-section .hero-content .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+body .container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+body ul {
+  list-style: none;
+}
+
+body ul li a {
+  text-decoration: none;
+}
+
+.hero-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../../img/window.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/window.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.hero-section .hero-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.hero-section .hero-content .cta-container {
+  text-align: center;
+}
+
+.hero-section .hero-content .cta-container .image-container {
+  margin-bottom: 20px;
+}
+
+.hero-section .hero-content .cta-container .image-container img {
+  margin: 0 auto;
+}
+
+.hero-section .hero-content .cta-container .description-container h1, .hero-section .hero-content .cta-container .description-container h2 {
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-shadow: -5px 10px #636363;
+}
+
+.hero-section .hero-content .cta-container .description-container h1 {
+  font-size: 60px;
+}
+
+.hero-section .hero-content .cta-container .description-container h2 {
+  font-size: 30px;
+}
+
+.hero-section .hero-content .form-container {
+  padding-top: 20px;
+}
+
+.hero-section .hero-content .form-container input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hero-section .hero-content .form-container .submit-btn {
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  background: #ff0000;
+  text-transform: uppercase;
+}
+
+.hero-section .hero-content .view-btn {
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid #ffffff;
+}
+
+.hero-section .hero-content .view-btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.css.map */
